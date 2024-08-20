@@ -6,8 +6,8 @@ import reducer from '../reducer/productReducer';
 
 const AppContext = createContext();
 
-// const API = "https://api.pujakaitem.com/api/products";
-const API = "https://course-api.com/react-store-products";
+ const API = "https://api.pujakaitem.com/api/products";
+// const API = "https://course-api.com/react-store-products";
 
 const initialState = {
   isLoading: false,
